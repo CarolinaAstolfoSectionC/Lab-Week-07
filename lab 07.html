@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        * {
+            background-color: azure;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            line-height: 1.8;
+            list-style-type: none;
+            text-align: center;
+        }
+        li {
+            background-color: aliceblue;
+        }
+
+        li:hover {
+            background-color: lavenderblush;
+        }
+
+        .checked {
+            text-decoration: line-through;
+        }
+
+    </style>
+    <title>To-do List</title>
+</head>
+
+<body>
+    <header><h3>Personal Tasks</h3></header>
+    <main>
+        <input type="text" id="inputTask" placeholder="Enter your task">
+        <button type="button" id="Bttn1" onclick="newTask()">Create new task</button>
+        <button type="button" id="Bttn2" onclick="removeTask()">Remove task</button>
+    </main>
+    <section>
+        <ul id="tasklist">
+            
+        </ul>
+    </section>
+
+
+</body>
+<script type="text/javascript" src="lab_07.js"></script>
+</html>
